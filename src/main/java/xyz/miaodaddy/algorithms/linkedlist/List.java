@@ -56,7 +56,7 @@ public class List {
             newHead.next = cur;
             cur = next;
         }
-        head.next=newHead.next; //最后把新的头指向原来的链表头
+        head.next = newHead.next; //最后把新的头指向原来的链表头
     }
 
     public static void main(String[] args) {
