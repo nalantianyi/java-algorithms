@@ -67,8 +67,9 @@ public class List {
         System.out.println("当前的链表内容");
         list.display();
 
-//        list.remove(3);
-//        System.out.println("删除后的链表内容");
+        list.remove(2);
+        System.out.println("删除后的链表内容");
+        list.display();
         System.out.println("反转后的链表内容");
         list.reverse();
         list.display();
